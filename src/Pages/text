@@ -1,0 +1,14 @@
+ {/* <Router>
+        <Navbar/>
+      <div className='app'>
+
+    <Routes>
+    <Route path="/" exact component={Home} />
+            <Route path="/About" component={About} />
+            <Route path="/Furnitures" component={Furnitures} />
+            <Route path="/Residential" component={Residential} />
+            <Route path="/ThreeDpaintings" component={ThreeDpaintings} /> 
+            <Route path="/page5" component={Page5} />  
+    </Routes>
+   </div>
+    </Router> */}

@@ -1,0 +1,26 @@
+.cont img{
+    width: 50%;
+    height: 50%;
+}
+.theWhole h1{
+    text-align: center;
+}
+.cont{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+}
+.marketPpl{
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+.ppl img{
+    width: 400px;
+    height: 500px;
+}
+.ppl h3{
+    text-align: center;
+}

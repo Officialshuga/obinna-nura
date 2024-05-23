@@ -1,0 +1,38 @@
+.everything{
+    display: flex;
+    margin: 30px 10px;
+    background-color: antiquewhite;
+    justify-content: space-evenly;
+    padding: 30px 10px;
+}
+.para{
+    width: 30%;
+    font-size: 1.2rem;
+}
+.images{
+    width: 30%;
+    background-color: white;
+    height: 50%;
+}
+.images .icon{
+    font-size: 50px;
+    margin-bottom: -20px;
+    padding: -10px;
+}
+.contact h5{
+    font-size: 1.2rem;
+}
+.contact h5 span{
+    font-size: 2rem;
+    padding-right: 20px;
+}
+/* .images h4{
+    font: 23rem;
+} */
+.images, h4,address{
+    font-size: 2rem;
+}
+.contact{
+    width: 30%;
+    background-color: antiquewhite;
+}
