@@ -1,24 +1,29 @@
 .Slide{
   background-image: url("./exotic\ 4.jpg");
   display: flex;
-  /* justify-content: ; */
   align-items: center;
-  height: 90vh;
+  height: 100vh;
   background-position: center;
   background-repeat: none;
   background-size: cover;
   color: white;
-  /* text-shadow: 4px 4px 4px #fff; */
 } 
 .Slide .contents h5 {
    font-size: 2rem;
+   padding-left: 30px;
 }
 .Slide .contents h2{
     font-size: 3.5rem;
+    padding-left: 30px;
 }
 .contents button{
     width: 10rem;
-    padding: 7px 13px;
+    padding: 15px 23px;
+    position: absolute;
+    font-size: 1rem;
+    border: 2px solid gold;
+    font-weight: 300;
+    left: 50px;
 }
 .contents button a{
     text-decoration: none;
@@ -31,16 +36,12 @@
     justify-content: space-evenly;
     font-weight: 100;
     padding: 100px 70px;
-    /* margin-left: 5%;
-    margin-right: 5%; */
     height: 12rem;
 }
 .secSec{
     font-size: 1.7rem;
-    /* width: 30%; */
 }
 .opor{
-    /* width: 70%; */
     font-size: 20px;
     margin-left: 20px;
 }
@@ -58,11 +59,11 @@
 }
 .paintings{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .paintings img{
-    width: 400px;
-    height: 500px;
+    width: 380px;
+    height: 400px;
 }
 .head h1{
     text-align: center;
@@ -74,9 +75,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 1.3rem;
 }
 .proj button{
-    padding: 10px 15px;
+    padding: 15px 25px;
+    font-size: 1.3rem;
+    color: black;
 }
 .proj button:hover{
     background-color: black;
@@ -101,18 +105,15 @@
     color: #000;
     margin: 0;
     padding: 0;
-  }
-  
+  } 
   .swiper {
     width: 60vw;
     height: 50vh;
   }
-  
   .swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
-  
     /* Center slide text vertically */
     display: flex;
     justify-content: center;
@@ -121,66 +122,45 @@
   }
   .swiper-slide p{
     width: 60%;
+    font-size: 1.3rem;
   } 
-  /* .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  } */
   
 /* ENDING OF SWIPER SLIDER */
-
-
 @media (max-width: 600px) {
-    .Slide{
-        width: 100vw;
-        height: 100vh;
+    .paintings img{
+        height: 30rem;
     }
     .paintings{
-        display: flex;
-        justify-content: space-between;
         flex-direction: column;
-        gap: 1rem;
-    }
-    .paintings img{
-        width: 100vw;
-        height: 80vh;
-    }
-    .opor{
-        /* width: 70%; */
-        font-size: 20px;
-        /* margin-left: 0px; */
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
     }
     .sec-part .opor button{
-        width: 52%;
-        padding: 20px 20px;
-        border: 2px solid rgba(255, 217, 0, 0.432);
+        width: 10rem;
+        padding: 1.4rem 1.2rem;
         font-size: 1.2rem;
-        background-color:  rgb(0, 212, 212);
     }
     .sec-part{
-        display: flex;
         flex-direction: column;
-        padding: 40px 30px;
-        height: 32rem;
+        height: 30rem;
+        padding: 15px 10px;
     }
-    .Slide .contents h5 {
-        font-size: 1.5rem;
-     }
-     .Slide .contents h2{
-         font-size: 1.5rem;
-     }
-     .contents button{
-         width: 10rem;
-         padding: 7px 13px;
-         background-color:  rgb(0, 212, 212);
-         font-weight: 100;
-         font-size: 15px;
-     }
-     .contents button a{
-         text-decoration: none;
-         font-size: 1.2rem;
-         color: black;
-     }
 }
+@media (min-width: 601px) and (max-width: 1024px) {
+    .paintings img{
+        height: 40rem;
+        width: 70%;
+    }
+    .paintings{
+        flex-direction: column;
+        gap: 3rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec-part .opor button{
+        width: 10rem;
+        padding: 1.6rem 1.4rem;
+    }
+}
+

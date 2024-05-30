@@ -1,38 +1,101 @@
 .everything{
+    background-color: antiquewhite;
+    padding: 6% 5%;
+    font-size: 1.2rem;
+    margin-bottom: -3rem;
+} 
+.f-part button{
+    width: 8rem;
+    padding: 10px 5px;
+}
+textarea{
+    width: 30%;
+}
+input{
+    padding: 15px 10px;
+    width: 17rem;
     display: flex;
-    margin: 30px 10px;
-    background-color: antiquewhite;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+form{
+    display: flex;
+    justify-content: space-between;
+}
+.down{
+    display: flex;
     justify-content: space-evenly;
-    padding: 30px 10px;
+    margin-top: 20px;
+    padding: 10px 30px;
 }
-.para{
-    width: 30%;
-    font-size: 1.2rem;
+.logo img{
+    width: 300px;
+    height: 250px;
 }
-.images{
-    width: 30%;
-    background-color: white;
-    height: 50%;
+.logo p{
+    width: 50%;
 }
-.images .icon{
-    font-size: 50px;
-    margin-bottom: -20px;
-    padding: -10px;
-}
-.contact h5{
-    font-size: 1.2rem;
-}
-.contact h5 span{
-    font-size: 2rem;
-    padding-right: 20px;
-}
-/* .images h4{
-    font: 23rem;
-} */
-.images, h4,address{
+.down-sec h2{
     font-size: 2rem;
 }
-.contact{
-    width: 30%;
-    background-color: antiquewhite;
+.down-sec p span{
+    color: blue;
+    font-size: 15px;
+}
+.down-sec p{
+    border-bottom: 2px solid black;
+}
+a{
+    text-decoration: none;
+}
+@media (min-width: 601px) and (max-width: 1024px){
+    form{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .everything{
+        margin-top: 20px;
+    }
+    textarea{
+        width: 100%;
+        margin-top: 3rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .everything{
+        margin-top: 30px;
+    }
+    textarea{
+        width: 80%;
+        margin-top: 2rem;
+    }
+    form{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo img{
+        width: 300px;
+        height: 250px;
+        display: flex;
+        align-self: center;
+    }
+    .down{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo p{
+        width: 100%;
+        font-size: 1.3rem;
+    }
+    .down-sec p{
+       font-size: 1.2rem;
+    }
+    .down-sec p span{
+        font-size: 1.4rem;
+    }
 }

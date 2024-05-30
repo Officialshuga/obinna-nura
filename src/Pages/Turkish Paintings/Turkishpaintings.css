@@ -1,10 +1,39 @@
-.paint{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 8px;
-    justify-content: space-evenly;
+body{
+    width: 100%;
+    overflow-x: none;
+} 
+.hello{
+    margin-top: 7%;
 }
-.paint img{
+.paintin{
+    display: flex;
+    justify-content: center;
+}
+.hello .paintin img{
     width: 400px;
-    height: 450px;
+    height: 400px;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-bottom: 20px;
+}
+
+
+
+@media (max-width: 600px) {
+    .paintin{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (min-width: 601px) and (max-width: 1024px){
+    .paintin{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hello .paintin img{
+        height: 40rem;
+        width: 70%;
+    }
 }

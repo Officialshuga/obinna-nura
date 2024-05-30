@@ -19,21 +19,30 @@ import thirt from "./painting 7.jpg"
 
 const Turkishpaintings = () => {
   return (
-    <div className='paint'>
+    <div className='hello'>
+    <div className='paintin'>
       <img src={one} alt='knacker 104'/>
       <img src={thirt} alt='knacker 104'/>      
       <img src={eleven} alt='knacker 104'/>
-      <img src={six} alt='knacker 104'/>
-      <img src={three} alt='knacker 104'/>
-      <img src={four} alt='knacker 104'/>
-      <img src={nine} alt='knacker 104'/>
-      <img src={seven} alt='knacker 104'/>
-      <img src={twelve} alt='knacker 104'/>
-      <img src={ten} alt='knacker 104'/>
-      <img src={eight} alt='knacker 104'/>
-      <img src={five} alt='knacker 104'/>
-      <img src={two} alt='jwdb'/>
-      
+    </div>
+      <div className='paintin'>
+        <img src={six} alt='knacker 104'/>
+        <img src={three} alt='knacker 104'/>
+        <img src={four} alt='knacker 104'/>
+      </div>
+      <div className='paintin'>
+        <img src={nine} alt='knacker 104'/>
+        <img src={seven} alt='knacker 104'/>
+        <img src={twelve} alt='knacker 104'/>
+      </div>
+        <div className='paintin'>
+        <img src={ten} alt='knacker 104'/>
+        <img src={eight} alt='knacker 104'/>
+        <img src={five} alt='knacker 104'/>
+        </div>
+          <div className='paintin'>
+          <img src={two} alt='jwdb'/>
+          </div>      
     </div>
   )
 }

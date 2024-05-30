@@ -1,6 +1,8 @@
 import React from 'react'
 import "./DPainting.css"
-// import one from "./3d 1.jpg"
+
+
+
 import one from "./3d 1.jpg"
 import two from "./3d 2.jpg"
 import three from "./3d 3.jpg"
@@ -17,20 +19,30 @@ import thirt from "./3d 13.jpg"
 
 const DPainting = () => {
   return (
-    <div className='paint'>
-      <img src={one} alt='this is an waka'/>
-      <img src={five} alt='this is an waka'/>
-      <img src={three} alt='this is an waka'/>      
-      <img src={four} alt='this is an waka'/>      
-      <img src={six} alt='this is an waka'/>      
-      <img src={eight} alt='this is an waka'/>      
-      <img src={seven} alt='this is an waka'/>      
-      <img src={ten} alt='this is an waka'/>
-      <img src={nine} alt='this is an waka'/>
-      <img src={eleven} alt='this is an waka'/>
-      <img src={twelve} alt='this is an waka'/>
-      <img src={thirt} alt='this is an waka'/>
-      <img src={two} alt='this is an waka'/>
+    <div className='hello'>
+        <div className='painting'>
+        <img src={one} alt='this is an waka'/>
+        <img src={five} alt='this is an waka'/>
+        <img src={three} alt='this is an waka'/> 
+        </div>
+       <div className='painting'>
+        <img src={four} alt='this is an waka'/>      
+        <img src={six} alt='this is an waka'/>      
+        <img src={eight} alt='this is an waka'/>
+       </div> 
+        <div className='painting'>
+        <img src={seven} alt='this is an waka'/>      
+        <img src={ten} alt='this is an waka'/>
+        <img src={nine} alt='this is an waka'/>
+        </div>
+       <div className='painting'>
+       <img src={eleven} alt='this is an waka'/>
+        <img src={twelve} alt='this is an waka'/>
+         <img src={thirt} alt='this is an waka'/>
+       </div>
+        <div className='painting'>
+        <img src={two} alt='this is an waka'/>
+        </div>
     </div>
   )
 }

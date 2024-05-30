@@ -1,0 +1,39 @@
+body{
+    width: 100%;
+    overflow-x: none;
+} 
+.hello{
+    margin-top: 7%;
+}
+.painti{
+    display: flex;
+    justify-content: center;
+}
+.hello .painti img{
+    width: 400px;
+    height: 400px;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-bottom: 20px;
+}
+
+
+
+@media (max-width: 600px) {
+    .painti{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (min-width: 601px) and (max-width: 1024px){
+    .painti{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hello .painti img{
+        height: 40rem;
+        width: 70%;
+    }
+} 

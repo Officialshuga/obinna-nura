@@ -1,6 +1,7 @@
 import './App.css';
 import { BrowserRouter, Routes, Route} from "react-router-dom";
-import Navbar from "./Pages/Navbar/navbar";
+//import Navbar from "./Pages/Navbar/navbar";
+import Navbarmenu from "./Pages/Navbar/navbar";
 import Home from "./Pages/Home/Home";
 import About from "./Pages/About/About";
 import Contact from "./Pages/Contact/Contact";
@@ -11,6 +12,7 @@ import Projects from "./Pages/Projects/Projects";
 import Turkishpaintings from "./Pages/Turkish Paintings/Turkishpaintings";
 import Residential from "./Pages/Residential/Residential";
 import Footer from './Pages/Footer/footer';
+import Notfound from './Pages/not-found/not-found.jsx';
 // import React, { useRef, useState } from 'react';
 // import { Swiper, SwiperSlide } from 'swiper/react';
 // import 'swiper/css';
@@ -29,7 +31,7 @@ function App() {
   return (
     <>
     <BrowserRouter>
-      <Navbar />
+      <Navbarmenu />
       <Routes>
         <Route path="/" exact Component={Home}></Route>
         <Route path="/contact" Component={Contact}></Route>
@@ -40,6 +42,7 @@ function App() {
         <Route path="/exoticfurnitures" Component={ExoticFurnitures}></Route>
         <Route path="/dpaintings" Component={DPaintings}></Route>
         <Route path="/projects" Component={Projects}></Route> 
+        <Route path="*" Component={Notfound}></Route> 
       </Routes>
       <Footer />
     </BrowserRouter>

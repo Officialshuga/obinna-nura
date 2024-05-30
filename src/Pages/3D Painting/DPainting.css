@@ -1,8 +1,42 @@
-.paint{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    
+.hello{
+    margin-top: 7%;
 }
-.paint img{
-    margin-top: 10px;
+.painting{
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: center; */
+}
+.hello .painting img{
+    width: 400px;
+    height: 400px;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 601px) and (max-width: 1024px){
+    .painting{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hello .painting img{
+        height: 40rem;
+        width: 80%;
+    }
+}
+@media (max-width: 600px) {
+    .painting{
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+    /* .hello img{
+        width: 100%;
+        height: 70%;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-bottom: 10px;
+    } */
 }

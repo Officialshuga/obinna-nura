@@ -1,8 +1,5 @@
 import React from 'react'
 import "./Contact.css"
-import { MdLocationOn } from "react-icons/md";
-import { TfiHeadphoneAlt } from "react-icons/tfi";
-import { MdOutlineEmail } from "react-icons/md";
 
 
 
@@ -10,22 +7,25 @@ import { MdOutlineEmail } from "react-icons/md";
 const Contact = () => {
   return (
     <div className='everything'>
-      <div className='para'>
-        <p>We believe that every great design begins with a conversation. Contact us to start the discussion around your residential, commercial, hospitality, and institutional projects.</p>
+    <form>
+      <div className='f-part'>
+        <h1>Send Us A Message</h1>
+        <input placeholder='your name'/>
+        <input placeholder='your Email'/>
+        <input placeholder='your Phone'/>
+        <button>Submit here</button>
       </div>
-
-      <div className='images'>
-        <div className='icon'><MdLocationOn /></div>
-      
-        <h4>ADDRESS</h4>
-        <address>No 4, Abideen oyebola, HRC ESTATE, Harris Drive, off Lekki Expressway, VGC, Lekki, Lagos</address>
-      </div>
-
-
-      <div className='contact'>
-        <h5><span><TfiHeadphoneAlt /></span>+234(0) 1 453 0108</h5>
-        <h5><span><MdOutlineEmail /></span>E-mail: info@nura.com</h5>
-      </div>
+      <textarea name="message" rows="10" cols="30">Drop your Message</textarea>
+      <div className='down'>
+          <div className='down-sec'>
+            <h2>Contact Us</h2>
+            <p>Holden Park Street, Harris Drive , Lagos, Nigeria</p>
+            <p><span>Phone:</span> 0706 941 1946</p>
+            <p> <span>Website:</span><a href='nuraluxurylimited.com'> nuraluxurylimited.com</a> </p>
+            <p> <span>E-mail:</span><a href='nuraluxurylimited@gmail.com'> nuraluxurylimited@gmail.com</a> </p>
+          </div>
+        </div>
+    </form>
     </div>
   )
 }

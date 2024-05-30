@@ -11,27 +11,42 @@ import lee from "./lee1.jpg"
 const About = () => {
   return (
     <>
-        <div className='theWhole'>
+       <div className='theWhole'>
         <h1>ABOUT US</h1>
         <div className='cont'>
           <img src={sidePic} alt='side emo'/>
-          <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
-      </div>
-      <h1>OUR STAFFS</h1>
+         <div className='words'>
+         <h1>About Us: Transforming Spaces, Creating Dreams</h1>
+          <p>
+            Welcome to Nura Luxury Limited, where your vision meets our expertise to create spaces that
+            inspire and delight. Our journey began with a simple idea: to transform ordinary spaces into extraordinary
+            environments that reflect your personality and style.
+            </p>
+            <h1>Our Story</h1>
+            <p>Founded with a passion for design and a commitment to excellence, Nura Luxury Limited has grown into a premier
+            interior decoration firm. We believe that every space has the potential to tell a story, and our mission is to
+            help you tell yours in the most beautiful way possible.
+            </p>
+            <h1>Our Philosophy</h1>
+            <p>
+            At Nura Luxury Limited, we are guided by a simple yet powerful philosophy: design should be both
+            beautiful and functional. We take pride in our ability to blend aesthetics with practicality, ensuring that
+            every project we undertake not only looks stunning but also serves your needs perfectly.
+            </p>
+         </div>
+          
+       </div>
+       <h1>OUR STAFFS</h1>
       <div className='marketPpl'>
           <div className='ppl'>
             <img src={obi} alt=''/>
             <h3>Obinna</h3>
           </div>
 
-
-
           <div className='ppl'>
             <img src={ehi} alt=''/>
             <h3>AmaHan</h3>
           </div>
-
-
 
           <div className='ppl'>
             <img src={lee} alt=''/>
@@ -39,7 +54,7 @@ const About = () => {
           </div>
       </div>
 
-        </div>
+        </div> 
     </>
   )
 }

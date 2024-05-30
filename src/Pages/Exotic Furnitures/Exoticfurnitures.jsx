@@ -20,22 +20,31 @@ import thirt from "./exotic 15.jpg"
 const Exoticfurnitures = () => {
   return (
     <div>
-      <div className='paint'>
-      <img src={one} alt='knacker 104'/>
-      <img src={thirt} alt='knacker 104'/>      
-      <img src={eleven} alt='knacker 104'/>
-      <img src={six} alt='knacker 104'/>
-      <img src={three} alt='knacker 104'/>
-      <img src={four} alt='knacker 104'/>
-      <img src={nine} alt='knacker 104'/>
-      <img src={seven} alt='knacker 104'/>
-      <img src={twelve} alt='knacker 104'/>
+      <div className='hello'>
+      <div className='painti'>
+        <img src={one} alt='knacker 104'/>
+        <img src={thirt} alt='knacker 104'/>      
+        <img src={eleven} alt='knacker 104'/>
+      </div>
+      <div className='painti'>
+        <img src={six} alt='knacker 104'/>
+        <img src={three} alt='knacker 104'/>
+        <img src={four} alt='knacker 104'/>
+      </div>
+      <div className='painti'>
+        <img src={nine} alt='knacker 104'/>
+        <img src={seven} alt='knacker 104'/>
+        <img src={twelve} alt='knacker 104'/>
+        </div>
+      <div className='painti'>
       <img src={ten} alt='knacker 104'/>
       <img src={eight} alt='knacker 104'/>
       <img src={five} alt='knacker 104'/>
-      <img src={two} alt='jwdb'/>
-      
-    </div>
+      </div>
+       <div className='painti'>
+        <img src={two} alt='jwdb'/>
+        </div>    
+    </div> 
     </div>
   )
 }
