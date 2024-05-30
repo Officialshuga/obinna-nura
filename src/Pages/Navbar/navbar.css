@@ -93,13 +93,13 @@
 } */
 /* MEDIA SCREEN FOR MOBILE VIEW*/
  @media (max-width: 600px) {
-  .amahan{
+  /* .amahan{
     display: flex;
     font-size: 2rem;
-    position: absolute;
+    position: relative;
     left: 7rem;
     top: 0.1rem;
-  }
+  } */
   .navbar {
     padding: 5px 5px;
   }

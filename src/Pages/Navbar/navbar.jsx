@@ -30,11 +30,11 @@ const Navbar = () => {
           <Link to="/">Home</Link>
           <Link to="About">About</Link>
           <div className="dropdown">
-          <Link to="Projects">Projects</Link>
-           <span className="amahan dropdown-toggle" onClick={toggleDropdown}><IoIosArrowDropdown /></span>
-            {/* <a href="#projects" className="dropdown-toggle" onClick={toggleDropdown}>
+          {/* <Link to="Projects">Projects</Link>
+           <span className="amahan dropdown-toggle" onClick={toggleDropdown}><IoIosArrowDropdown /></span> */}
+            <a href="#projects" className="dropdown-toggle" onClick={toggleDropdown}>
               Projects
-            </a> */}
+            </a>
             <div className={`dropdown-content ${isDropdownOpen ? 'show' : ''}`}>
               <Link to="DPaintings">3D Paintings</Link>
               <Link to="Exoticfurnitures">Exotic Furniture</Link>
